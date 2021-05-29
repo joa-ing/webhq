@@ -109,27 +109,27 @@ function update_scene(context) {
     if(context.s1) {
         if(context.s1==='both') {
             $('#pane1').addClass('left-python-yellow right-python-blue');
-        } else if(context.s1==='yellow') {
+        } else if(context.s1==='cadeira') {
             $('#pane1').addClass('left-python-yellow');
-        } else if(context.s1==='blue') {
+        } else if(context.s1==='banco') {
             $('#pane1').addClass('right-python-blue');
         }
     }
     if(context.s2) {
         if(context.s2==='both') {
             $('#pane2').addClass('left-python-yellow right-python-blue');
-        } else if(context.s2==='yellow') {
+        } else if(context.s2==='cadeira') {
             $('#pane2').addClass('left-python-yellow');
-        } else if(context.s2==='blue') {
+        } else if(context.s2==='banco') {
             $('#pane2').addClass('right-python-blue');
         }
     }
     if(context.s3) {
         if(context.s3==='both') {
             $('#pane3').addClass('left-python-yellow right-python-blue');
-        } else if(context.s3==='yellow') {
+        } else if(context.s3==='cadeira') {
             $('#pane3').addClass('left-python-yellow');
-        } else if(context.s3==='blue') {
+        } else if(context.s3==='banco') {
             $('#pane3').addClass('right-python-blue');
         }
     }
