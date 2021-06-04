@@ -366,9 +366,9 @@ function setup_editor() {
             pane.removeClass();
             if(snakes==='both') {
                 pane.addClass('left-python-yellow right-python-blue');
-            } else if(snakes==='yellow') {
+            } else if(snakes==='banco') {
                 pane.addClass('left-python-yellow');
-            } else if(snakes==='blue') {
+            } else if(snakes==='cadeira') {
                 pane.addClass('right-python-blue');
             }
         });
