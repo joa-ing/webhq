@@ -109,27 +109,27 @@ function update_scene(context) {
     if(context.s1) {
         if(context.s1==='both') {
             $('#pane1').addClass('left-python-yellow right-python-blue');
-        } else if(context.s1==='cadeira') {
+        } else if(context.s1==='mulhercompleto') {
             $('#pane1').addClass('left-python-yellow');
-        } else if(context.s1==='banco') {
+        } else if(context.s1==='mulhercompleto2') {
             $('#pane1').addClass('right-python-blue');
         }
     }
     if(context.s2) {
         if(context.s2==='both') {
             $('#pane2').addClass('left-python-yellow right-python-blue');
-        } else if(context.s2==='cadeira') {
+        } else if(context.s2==='mulhercompleto') {
             $('#pane2').addClass('left-python-yellow');
-        } else if(context.s2==='banco') {
+        } else if(context.s2==='mulhercompleto2') {
             $('#pane2').addClass('right-python-blue');
         }
     }
     if(context.s3) {
         if(context.s3==='both') {
             $('#pane3').addClass('left-python-yellow right-python-blue');
-        } else if(context.s3==='cadeira') {
+        } else if(context.s3==='mulhercompleto') {
             $('#pane3').addClass('left-python-yellow');
-        } else if(context.s3==='banco') {
+        } else if(context.s3==='mulhercompleto2') {
             $('#pane3').addClass('right-python-blue');
         }
     }
@@ -366,9 +366,9 @@ function setup_editor() {
             pane.removeClass();
             if(snakes==='both') {
                 pane.addClass('left-python-yellow right-python-blue');
-            } else if(snakes==='cadeira') {
+            } else if(snakes==='mulhercompleto') {
                 pane.addClass('left-python-yellow');
-            } else if(snakes==='banco') {
+            } else if(snakes==='mulhercompleto2') {
                 pane.addClass('right-python-blue');
             }
         });
