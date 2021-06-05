@@ -235,13 +235,13 @@ section iframe {
 
 .left-python-yellow:before,
 .right-python-yellow:after {
-  background: url('bg/cadeira.png')bottom left no-repeat;
+  background: url('bg/mulhercompleto.png')bottom left no-repeat;
   background-size: 100%
 }
 
 .left-python-blue:before,
 .right-python-blue:after {
-  background: url('bg/banco.png')bottom left no-repeat;
+  background: url('bg/mulhercompleto.png')bottom left no-repeat;
   background-size: 100%
 }
 
